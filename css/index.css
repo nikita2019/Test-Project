@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    background: url(../img/background.jpg) center no-repeat;
+    background-size: cover;
+}
+/* @media{
+    html,body{
+        height: 100%;
+        background: url(../img/background.jpg) no-repeat;
+        background-size: cover; */
+
+}
+#main-text{
+    font-size: 80px;
+}
+main{
+    text-shadow: 0 3px 2px black;
+    margin-top: 60px;
+}
+main p{
+    font-size: 30px;
+}
+
+
+
+main button{
+    margin-top: 100px;
+    background:#1AAB8A;
+    color:rgb(255, 255, 255);
+    border:none;
+    position:relative;
+    width: 328PX;
+    height:84px;
+    font-size: 32px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  main button:hover{
+    background:rgb(255, 255, 255);
+    color:#1AAB8A;
+  }
+  main button:before, main button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  main button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  main button:hover:before, main button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  footer{
+      margin-top: 250px;
+  }
